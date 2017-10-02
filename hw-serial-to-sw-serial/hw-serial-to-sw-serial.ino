@@ -26,7 +26,7 @@ void loop() {
     Serial.write(swSer.read());
   }
   while (Serial.available() > 0) {
-    swSer.write(Serial.read()); //Start HID Report
+    swSer.write(Serial.read());
   }
 }
 
